@@ -1,0 +1,19 @@
+supported_devices:
+- Samsung Galaxy S25 Ultra
+- Samsung Galaxy S25
+- Snapdragon 8 Elite QRD
+- Samsung Galaxy S24
+
+# Measured on Samsung Galaxy S25 Ultra (SM8750, Android 15) via Qualcomm AI Hub.
+# Bench date 2026-06-06. qairt 2.45.0. Compile job jgl71q225, profile job j5qwmd3e5.
+# CNN backbone (vgg19_bn + last 1x1 conv); input 1x3x32x128.
+models:
+  backbone:
+    precision: float
+    estimated_inference_time_ms:
+      Samsung Galaxy S25 Ultra: 4.48
+    compute_units:
+      Samsung Galaxy S25 Ultra:
+        npu: 26
+        gpu: 0
+        cpu: 0

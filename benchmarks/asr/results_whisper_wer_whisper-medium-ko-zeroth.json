@@ -1,0 +1,11 @@
+{
+  "model": "seastar105/whisper-medium-ko-zeroth (float; same ckpt as QNN NPU build)",
+  "dataset": "google/fleurs (CC-BY-4.0)",
+  "metric": "WER, NFC+lowercase+punct-strip",
+  "results": {
+    "ko_kr": {
+      "n": 30,
+      "wer": 0.5251
+    }
+  }
+}

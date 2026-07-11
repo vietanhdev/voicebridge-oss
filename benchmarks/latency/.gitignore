@@ -1,0 +1,4 @@
+# runtime artifacts — pushed corpus and pulled device results are not committed
+*.wav
+manifest.json
+whisper_latency*.json

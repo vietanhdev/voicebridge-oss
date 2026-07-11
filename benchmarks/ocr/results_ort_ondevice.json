@@ -1,0 +1,153 @@
+[
+  {
+    "available_eps": [
+      "CPU",
+      "NNAPI",
+      "XNNPACK"
+    ]
+  },
+  {
+    "model": "det_v3.onnx",
+    "ep": "cpu",
+    "shape": [
+      1,
+      3,
+      640,
+      640
+    ],
+    "ms_best": 129.214,
+    "ms_median": 151.373
+  },
+  {
+    "model": "det_v3.onnx",
+    "ep": "xnnpack",
+    "shape": [
+      1,
+      3,
+      640,
+      640
+    ],
+    "ms_best": 127.66,
+    "ms_median": 171.096
+  },
+  {
+    "model": "det_v3.onnx",
+    "ep": "nnapi",
+    "shape": [
+      1,
+      3,
+      640,
+      640
+    ],
+    "ms_best": 134.365,
+    "ms_median": 159.681
+  },
+  {
+    "model": "zh_rec.onnx",
+    "ep": "cpu",
+    "shape": [
+      1,
+      3,
+      48,
+      320
+    ],
+    "ms_best": 178.093,
+    "ms_median": 196.369
+  },
+  {
+    "model": "zh_rec.onnx",
+    "ep": "xnnpack",
+    "shape": [
+      1,
+      3,
+      48,
+      320
+    ],
+    "ms_best": 178.625,
+    "ms_median": 192.751
+  },
+  {
+    "model": "zh_rec.onnx",
+    "ep": "nnapi",
+    "shape": [
+      1,
+      3,
+      48,
+      320
+    ],
+    "ms_best": 187.061,
+    "ms_median": 194.154
+  },
+  {
+    "model": "ko_rec.onnx",
+    "ep": "cpu",
+    "shape": [
+      1,
+      3,
+      48,
+      320
+    ],
+    "ms_best": 42.083,
+    "ms_median": 56.172
+  },
+  {
+    "model": "ko_rec.onnx",
+    "ep": "xnnpack",
+    "shape": [
+      1,
+      3,
+      48,
+      320
+    ],
+    "ms_best": 40.688,
+    "ms_median": 48.152
+  },
+  {
+    "model": "ko_rec.onnx",
+    "ep": "nnapi",
+    "shape": [
+      1,
+      3,
+      48,
+      320
+    ],
+    "ms_best": 48.658,
+    "ms_median": 64.144
+  },
+  {
+    "model": "latin_rec.onnx",
+    "ep": "cpu",
+    "shape": [
+      1,
+      3,
+      48,
+      320
+    ],
+    "ms_best": 46.136,
+    "ms_median": 58.288
+  },
+  {
+    "model": "latin_rec.onnx",
+    "ep": "xnnpack",
+    "shape": [
+      1,
+      3,
+      48,
+      320
+    ],
+    "ms_best": 39.042,
+    "ms_median": 58.994
+  },
+  {
+    "model": "latin_rec.onnx",
+    "ep": "nnapi",
+    "shape": [
+      1,
+      3,
+      48,
+      320
+    ],
+    "ms_best": 38.979,
+    "ms_median": 55.287
+  }
+]

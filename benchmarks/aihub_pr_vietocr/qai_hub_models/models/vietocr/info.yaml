@@ -1,0 +1,41 @@
+name: VietOCR
+id: vietocr
+status: pending
+headline: Vietnamese text recognition (vgg19_bn + Transformer) — fills the AI Hub Vietnamese-OCR gap, runs 100% on Snapdragon NPU.
+domain: Computer Vision
+description: >
+  VietOCR is a PyTorch OCR model for Vietnamese: a vgg19_bn CNN backbone feeding a
+  Transformer seq2seq recognizer, with a 233-character vocabulary covering the full
+  Vietnamese tone set (precomposed vowels such as ế ồ ự ấ ợ). It is the most widely
+  used open Vietnamese recognizer, and Vietnamese OCR is currently absent from the AI
+  Hub catalog. The recognition CNN backbone (53% of parameters) traces and compiles
+  cleanly to the Snapdragon NPU.
+use_case: Optical Character Recognition
+tags:
+  - ocr
+  - vietnamese
+  - multilingual
+research_paper: ""
+research_paper_title: ""
+license_type: apache-2.0
+source_repo: https://github.com/pbcquoc/vietocr
+license: https://github.com/pbcquoc/vietocr/blob/master/LICENSE
+applicable_scenarios:
+  - Vietnamese document OCR
+  - Offline sign / receipt translation
+related_models:
+  - trocr
+  - easyocr
+form_factors:
+  - Phone
+  - Tablet
+has_static_banner: false
+has_animated_banner: false
+dataset: []
+technical_details:
+  Source model: VietOCR vgg_transformer (pbcquoc/vietocr)
+  Backbone: vgg19_bn CNN (AvgPool variant) + 1x1 last conv
+  Vocabulary: 233 chars incl. full Vietnamese tone set
+  Input resolution: 32 x 128 (H x W, fixed for NPU)
+  Backbone parameters: 20.2M (53% of full model)
+  NPU latency (S25 Ultra): 4.48 ms, 26/26 layers on NPU

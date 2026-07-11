@@ -1,0 +1,19 @@
+{
+  "model": "openai/whisper-large-v3-turbo (float; same ckpt as QNN NPU build)",
+  "dataset": "google/fleurs (CC-BY-4.0)",
+  "metric": "WER, NFC+lowercase+punct-strip",
+  "results": {
+    "ko_kr": {
+      "n": 20,
+      "wer": 0.1384
+    },
+    "cmn_hans_cn": {
+      "n": 20,
+      "cer": 0.0735
+    },
+    "vi_vn": {
+      "n": 20,
+      "wer": 0.079
+    }
+  }
+}

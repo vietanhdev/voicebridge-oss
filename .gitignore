@@ -1,0 +1,14 @@
+build/
+.dart_tool/
+*.apk
+.gradle/
+.flutter-plugins-dependencies
+# compiled model artifacts (large binaries — hosted on HF/AI Hub, not git)
+benchmarks/ocr/out/
+benchmarks/ocr/__pycache__/
+/tmp/aihub_models/
+__pycache__/
+
+# FVM Version Cache
+.fvm/
+benchmarks/vietocr/*.onnx

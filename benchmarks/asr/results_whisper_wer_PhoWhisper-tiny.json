@@ -1,0 +1,11 @@
+{
+  "model": "vinai/PhoWhisper-tiny (float; same ckpt as QNN NPU build)",
+  "dataset": "google/fleurs (CC-BY-4.0)",
+  "metric": "WER, NFC+lowercase+punct-strip",
+  "results": {
+    "vi_vn": {
+      "n": 30,
+      "wer": 0.2115
+    }
+  }
+}

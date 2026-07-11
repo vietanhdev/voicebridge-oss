@@ -1,0 +1,43 @@
+name: PP-OCRv5
+id: pp_ocrv5
+status: public
+headline: PP-OCRv5 text detection and Chinese/Korean recognition — compiled for Snapdragon 8 Elite NPU.
+domain: Computer Vision
+description: >
+  PP-OCRv5 (PaddleOCR v5) text detection and recognition pipeline optimized for
+  on-device OCR in Chinese (Simplified) and Korean.
+  Consists of three components: a mobile text detection model (PP-HGNetV2 + DB++)
+  and two language-specific recognition models (SVTR/CTC) for ZH and KO.
+  All models are compiled to int8 TFLite via Qualcomm AI Hub PTQ and run 100% on
+  the Hexagon V79 HTP NPU — zero CPU fallback.
+use_case: Optical Character Recognition
+tags:
+  - ocr
+  - multilingual
+applicable_scenarios:
+  - Signage Translation
+  - Offline OCR
+related_models:
+  - easyocr
+  - trocr
+form_factors:
+  - Phone
+  - Tablet
+has_static_banner: false
+has_animated_banner: false
+dataset: []
+technical_details:
+  Source model: PP-OCRv5 (PaddleOCR 3.x, monkt/paddleocr-onnx on HuggingFace)
+  Detection model: PP-OCRv5 mobile det (PP-HGNetV2 + DB++ + DSR), int8
+  ZH recognition: PP-OCRv5 server rec (SVTR/CTC), int8, 18383-char dict
+  KO recognition: PP-OCRv5 mobile rec (SVTR/CTC), int8, 11945-char dict
+  Detection input: 1x3x640x640 (fixed)
+  Recognition input: 1x3x48xW (W variable per crop)
+  NPU latency (S25 Ultra): det 1.23ms, zh_rec 0.99ms, ko_rec 0.49ms
+  Full ZH/KO pipeline: ~2.2ms on NPU
+  Accuracy (ReCTS, real signage, n=200): 48.5% full-string recall, 66.04% mean char recall
+license_type: apache-2.0
+research_paper: https://arxiv.org/abs/2507.05595
+research_paper_title: PaddleOCR 3.0 Technical Report
+source_repo: https://github.com/PaddlePaddle/PaddleOCR
+license: https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE

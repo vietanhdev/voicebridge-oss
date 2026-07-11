@@ -1,0 +1,17 @@
+{
+  "model": "facebook/nllb-200-distilled-600M (benchmark only — CC-BY-NC, not for shipping)",
+  "dataset": "FLORES-1012 (project assets/bench/flores_sources.json; index-aligned VI/KO/EN)",
+  "n": 80,
+  "metric": "spBLEU (sacrebleu flores200)",
+  "results": {
+    "vi->ko": {
+      "direct": 19.31,
+      "pivot_en": 20.12
+    },
+    "ko->vi": {
+      "direct": 24.47,
+      "pivot_en": 24.06
+    }
+  },
+  "note": "direct vs English-pivot isolates ML Kit's pivot penalty (ML Kit pivots all non-English pairs through English). Ship a DIRECT Apache model (Gemma-E2B/MADLAD)."
+}

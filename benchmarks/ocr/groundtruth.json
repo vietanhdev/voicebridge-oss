@@ -1,0 +1,278 @@
+[
+  {
+    "id": "zh_00",
+    "lang": "zh",
+    "lines": [
+      "紧急停止"
+    ],
+    "text": "紧急停止",
+    "file": "zh_00.png"
+  },
+  {
+    "id": "zh_01",
+    "lang": "zh",
+    "lines": [
+      "佩戴安全帽"
+    ],
+    "text": "佩戴安全帽",
+    "file": "zh_01.png"
+  },
+  {
+    "id": "zh_02",
+    "lang": "zh",
+    "lines": [
+      "禁止入内"
+    ],
+    "text": "禁止入内",
+    "file": "zh_02.png"
+  },
+  {
+    "id": "zh_03",
+    "lang": "zh",
+    "lines": [
+      "高压电危险"
+    ],
+    "text": "高压电危险",
+    "file": "zh_03.png"
+  },
+  {
+    "id": "zh_04",
+    "lang": "zh",
+    "lines": [
+      "当心触电"
+    ],
+    "text": "当心触电",
+    "file": "zh_04.png"
+  },
+  {
+    "id": "zh_05",
+    "lang": "zh",
+    "lines": [
+      "必须戴防护眼镜"
+    ],
+    "text": "必须戴防护眼镜",
+    "file": "zh_05.png"
+  },
+  {
+    "id": "zh_06",
+    "lang": "zh",
+    "lines": [
+      "小心地滑"
+    ],
+    "text": "小心地滑",
+    "file": "zh_06.png"
+  },
+  {
+    "id": "zh_07",
+    "lang": "zh",
+    "lines": [
+      "禁止吸烟"
+    ],
+    "text": "禁止吸烟",
+    "file": "zh_07.png"
+  },
+  {
+    "id": "zh_08",
+    "lang": "zh",
+    "lines": [
+      "注意安全",
+      "戴好手套"
+    ],
+    "text": "注意安全 戴好手套",
+    "file": "zh_08.png"
+  },
+  {
+    "id": "zh_09",
+    "lang": "zh",
+    "lines": [
+      "消防通道",
+      "禁止堵塞"
+    ],
+    "text": "消防通道 禁止堵塞",
+    "file": "zh_09.png"
+  },
+  {
+    "id": "ko_00",
+    "lang": "ko",
+    "lines": [
+      "비상 정지"
+    ],
+    "text": "비상 정지",
+    "file": "ko_00.png"
+  },
+  {
+    "id": "ko_01",
+    "lang": "ko",
+    "lines": [
+      "안전모 착용"
+    ],
+    "text": "안전모 착용",
+    "file": "ko_01.png"
+  },
+  {
+    "id": "ko_02",
+    "lang": "ko",
+    "lines": [
+      "출입 금지"
+    ],
+    "text": "출입 금지",
+    "file": "ko_02.png"
+  },
+  {
+    "id": "ko_03",
+    "lang": "ko",
+    "lines": [
+      "고압 전기 위험"
+    ],
+    "text": "고압 전기 위험",
+    "file": "ko_03.png"
+  },
+  {
+    "id": "ko_04",
+    "lang": "ko",
+    "lines": [
+      "감전 주의"
+    ],
+    "text": "감전 주의",
+    "file": "ko_04.png"
+  },
+  {
+    "id": "ko_05",
+    "lang": "ko",
+    "lines": [
+      "보안경 착용"
+    ],
+    "text": "보안경 착용",
+    "file": "ko_05.png"
+  },
+  {
+    "id": "ko_06",
+    "lang": "ko",
+    "lines": [
+      "미끄럼 주의"
+    ],
+    "text": "미끄럼 주의",
+    "file": "ko_06.png"
+  },
+  {
+    "id": "ko_07",
+    "lang": "ko",
+    "lines": [
+      "금연"
+    ],
+    "text": "금연",
+    "file": "ko_07.png"
+  },
+  {
+    "id": "ko_08",
+    "lang": "ko",
+    "lines": [
+      "안전 제일",
+      "장갑 착용"
+    ],
+    "text": "안전 제일 장갑 착용",
+    "file": "ko_08.png"
+  },
+  {
+    "id": "ko_09",
+    "lang": "ko",
+    "lines": [
+      "소방 통로",
+      "적재 금지"
+    ],
+    "text": "소방 통로 적재 금지",
+    "file": "ko_09.png"
+  },
+  {
+    "id": "vi_00",
+    "lang": "vi",
+    "lines": [
+      "DỪNG KHẨN CẤP"
+    ],
+    "text": "DỪNG KHẨN CẤP",
+    "file": "vi_00.png"
+  },
+  {
+    "id": "vi_01",
+    "lang": "vi",
+    "lines": [
+      "ĐỘI MŨ BẢO HỘ"
+    ],
+    "text": "ĐỘI MŨ BẢO HỘ",
+    "file": "vi_01.png"
+  },
+  {
+    "id": "vi_02",
+    "lang": "vi",
+    "lines": [
+      "CẤM VÀO"
+    ],
+    "text": "CẤM VÀO",
+    "file": "vi_02.png"
+  },
+  {
+    "id": "vi_03",
+    "lang": "vi",
+    "lines": [
+      "NGUY HIỂM ĐIỆN CAO ÁP"
+    ],
+    "text": "NGUY HIỂM ĐIỆN CAO ÁP",
+    "file": "vi_03.png"
+  },
+  {
+    "id": "vi_04",
+    "lang": "vi",
+    "lines": [
+      "CẨN THẬN ĐIỆN GIẬT"
+    ],
+    "text": "CẨN THẬN ĐIỆN GIẬT",
+    "file": "vi_04.png"
+  },
+  {
+    "id": "vi_05",
+    "lang": "vi",
+    "lines": [
+      "ĐEO KÍNH BẢO HỘ"
+    ],
+    "text": "ĐEO KÍNH BẢO HỘ",
+    "file": "vi_05.png"
+  },
+  {
+    "id": "vi_06",
+    "lang": "vi",
+    "lines": [
+      "CẨN THẬN TRƠN TRƯỢT"
+    ],
+    "text": "CẨN THẬN TRƠN TRƯỢT",
+    "file": "vi_06.png"
+  },
+  {
+    "id": "vi_07",
+    "lang": "vi",
+    "lines": [
+      "CẤM HÚT THUỐC"
+    ],
+    "text": "CẤM HÚT THUỐC",
+    "file": "vi_07.png"
+  },
+  {
+    "id": "vi_08",
+    "lang": "vi",
+    "lines": [
+      "AN TOÀN LÀ TRÊN HẾT",
+      "ĐEO GĂNG TAY"
+    ],
+    "text": "AN TOÀN LÀ TRÊN HẾT ĐEO GĂNG TAY",
+    "file": "vi_08.png"
+  },
+  {
+    "id": "vi_09",
+    "lang": "vi",
+    "lines": [
+      "LỐI THOÁT HIỂM",
+      "KHÔNG CHẮN LỐI"
+    ],
+    "text": "LỐI THOÁT HIỂM KHÔNG CHẮN LỐI",
+    "file": "vi_09.png"
+  }
+]

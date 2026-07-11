@@ -1,0 +1,45 @@
+supported_devices:
+- Samsung Galaxy S25 Ultra
+- Samsung Galaxy S25
+- Samsung Galaxy S25+
+- Snapdragon 8 Elite QRD
+- Samsung Galaxy S24
+- Samsung Galaxy S24 Ultra
+- Samsung Galaxy S24+
+- Samsung Galaxy S23
+- Samsung Galaxy S23 Ultra
+
+# Measured on Samsung Galaxy S25 Ultra (SM8750, Android 15) via Qualcomm AI Hub
+# Bench date: 2026-06-06 | Tool: qai-hub 0.50.0, qairt 2.45.0
+# All layers on NPU (Hexagon V79 HTP), zero CPU fallback.
+# Job IDs: det=jg98xw1qp, zh=jp38we2x5, ko=jgnx7evm5
+# Profile IDs: det=jgkd9yowp, zh=j56vd1r6p, ko=jpv49w9kp
+
+models:
+  det:
+    precision: w8a8
+    estimated_inference_time_ms:
+      Samsung Galaxy S25 Ultra: 1.23
+    compute_units:
+      Samsung Galaxy S25 Ultra:
+        npu: 156
+        gpu: 0
+        cpu: 0
+  zh_rec:
+    precision: w8a8
+    estimated_inference_time_ms:
+      Samsung Galaxy S25 Ultra: 0.99
+    compute_units:
+      Samsung Galaxy S25 Ultra:
+        npu: 219
+        gpu: 0
+        cpu: 0
+  ko_rec:
+    precision: w8a8
+    estimated_inference_time_ms:
+      Samsung Galaxy S25 Ultra: 0.49
+    compute_units:
+      Samsung Galaxy S25 Ultra:
+        npu: 223
+        gpu: 0
+        cpu: 0

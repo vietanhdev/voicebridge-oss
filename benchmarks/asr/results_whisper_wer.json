@@ -1,0 +1,15 @@
+{
+  "model": "openai/whisper-tiny (float; same ckpt as QNN NPU build)",
+  "dataset": "google/fleurs (CC-BY-4.0)",
+  "metric": "WER, NFC+lowercase+punct-strip",
+  "results": {
+    "vi_vn": {
+      "n": 30,
+      "wer": 0.6134
+    },
+    "en_us": {
+      "n": 30,
+      "wer": 0.1657
+    }
+  }
+}

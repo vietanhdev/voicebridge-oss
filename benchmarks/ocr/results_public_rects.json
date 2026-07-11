@@ -1,0 +1,85 @@
+{
+  "dataset": "SWHL/ChineseOCRBench (ReCTS subset)",
+  "license": "Apache-2.0",
+  "n_scored": 200,
+  "recall_at_full_pct": 48.5,
+  "mean_char_recall_pct": 66.04,
+  "model": "PP-OCRv5 det + zh rec (ONNX float32, rapidocr-onnxruntime)",
+  "sample_misses": [
+    {
+      "gt": "蛋糕先生",
+      "hyp_norm": "先",
+      "char_recall": 0.25
+    },
+    {
+      "gt": "品味港式茶餐廳",
+      "hyp_norm": "品味衣式茶餐司",
+      "char_recall": 0.43
+    },
+    {
+      "gt": "土家吊锅寨",
+      "hyp_norm": "",
+      "char_recall": 0.0
+    },
+    {
+      "gt": "驴肉火烧",
+      "hyp_norm": "肉火烧",
+      "char_recall": 0.75
+    },
+    {
+      "gt": "麻辣香锅",
+      "hyp_norm": "麻香锅",
+      "char_recall": 0.5
+    },
+    {
+      "gt": "各种砂锅面",
+      "hyp_norm": "锅面",
+      "char_recall": 0.4
+    },
+    {
+      "gt": "飘香园铜锅洋芋饭",
+      "hyp_norm": "飘香园铜锅鲜羊饭",
+      "char_recall": 0.62
+    },
+    {
+      "gt": "吃火锅不上火",
+      "hyp_norm": "锅不上火",
+      "char_recall": 0.67
+    },
+    {
+      "gt": "本店郑重承诺",
+      "hyp_norm": "本店邮重承诺",
+      "char_recall": 0.5
+    },
+    {
+      "gt": "麻辣牛肉",
+      "hyp_norm": "",
+      "char_recall": 0.0
+    },
+    {
+      "gt": "金渤花甲粉",
+      "hyp_norm": "金渤",
+      "char_recall": 0.4
+    },
+    {
+      "gt": "广福记冒菜",
+      "hyp_norm": "",
+      "char_recall": 0.0
+    },
+    {
+      "gt": "三姐水饺",
+      "hyp_norm": "",
+      "char_recall": 0.0
+    },
+    {
+      "gt": "胖嫂饺子馆",
+      "hyp_norm": "胖嫂子馆",
+      "char_recall": 0.4
+    },
+    {
+      "gt": "特色蒸菜",
+      "hyp_norm": "特色",
+      "char_recall": 0.5
+    }
+  ]
+}

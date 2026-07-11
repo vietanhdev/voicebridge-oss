@@ -1,0 +1,8 @@
+[
+  { "id": "ko-01", "lang": "ko", "file": "ko-01.wav" },
+  { "id": "ko-02", "lang": "ko", "file": "ko-02.wav" },
+  { "id": "zh-01", "lang": "zh", "file": "zh-01.wav" },
+  { "id": "zh-02", "lang": "zh", "file": "zh-02.wav" },
+  { "id": "en-01", "lang": "en", "file": "en-01.wav" },
+  { "id": "en-02", "lang": "en", "file": "en-02.wav" }
+]

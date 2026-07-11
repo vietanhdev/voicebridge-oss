@@ -1,0 +1,242 @@
+[
+  {
+    "id": "zh_00",
+    "lang": "zh",
+    "gt": "紧急停止",
+    "hyp": "紧急停止",
+    "ms_best": 24.067,
+    "ms_median": 25.693
+  },
+  {
+    "id": "zh_01",
+    "lang": "zh",
+    "gt": "佩戴安全帽",
+    "hyp": "佩戲安全帽",
+    "ms_best": 34.476,
+    "ms_median": 37.66
+  },
+  {
+    "id": "zh_02",
+    "lang": "zh",
+    "gt": "禁止入内",
+    "hyp": "禁止入内",
+    "ms_best": 18.914,
+    "ms_median": 39.576
+  },
+  {
+    "id": "zh_03",
+    "lang": "zh",
+    "gt": "高压电危险",
+    "hyp": "高压电危险",
+    "ms_best": 21.448,
+    "ms_median": 28.296
+  },
+  {
+    "id": "zh_04",
+    "lang": "zh",
+    "gt": "当心触电",
+    "hyp": "当心触电",
+    "ms_best": 25.898,
+    "ms_median": 29.727
+  },
+  {
+    "id": "zh_05",
+    "lang": "zh",
+    "gt": "必须戴防护眼镜",
+    "hyp": "必须戴防护眼镜",
+    "ms_best": 28.302,
+    "ms_median": 43.631
+  },
+  {
+    "id": "zh_06",
+    "lang": "zh",
+    "gt": "小心地滑",
+    "hyp": "小心地滑",
+    "ms_best": 28.598,
+    "ms_median": 35.563
+  },
+  {
+    "id": "zh_07",
+    "lang": "zh",
+    "gt": "禁止吸烟",
+    "hyp": "禁止吸烟",
+    "ms_best": 27.795,
+    "ms_median": 29.766
+  },
+  {
+    "id": "zh_08",
+    "lang": "zh",
+    "gt": "注意安全 戴好手套",
+    "hyp": "注意安全 戴好手套",
+    "ms_best": 31.738,
+    "ms_median": 34.464
+  },
+  {
+    "id": "zh_09",
+    "lang": "zh",
+    "gt": "消防通道 禁止堵塞",
+    "hyp": "消防逼道 禁止堵塞",
+    "ms_best": 26.539,
+    "ms_median": 37.58
+  },
+  {
+    "id": "ko_00",
+    "lang": "ko",
+    "gt": "비상 정지",
+    "hyp": "비상 정지",
+    "ms_best": 31.024,
+    "ms_median": 33.828
+  },
+  {
+    "id": "ko_01",
+    "lang": "ko",
+    "gt": "안전모 착용",
+    "hyp": "안전모 착용",
+    "ms_best": 24.272,
+    "ms_median": 40.817
+  },
+  {
+    "id": "ko_02",
+    "lang": "ko",
+    "gt": "출입 금지",
+    "hyp": "출입 금지",
+    "ms_best": 34.781,
+    "ms_median": 44.282
+  },
+  {
+    "id": "ko_03",
+    "lang": "ko",
+    "gt": "고압 전기 위험",
+    "hyp": "고압 전기 위험",
+    "ms_best": 22.665,
+    "ms_median": 30.747
+  },
+  {
+    "id": "ko_04",
+    "lang": "ko",
+    "gt": "감전 주의",
+    "hyp": "감전 주의",
+    "ms_best": 22.766,
+    "ms_median": 36.244
+  },
+  {
+    "id": "ko_05",
+    "lang": "ko",
+    "gt": "보안경 착용",
+    "hyp": "보안경 착용",
+    "ms_best": 21.793,
+    "ms_median": 24.683
+  },
+  {
+    "id": "ko_06",
+    "lang": "ko",
+    "gt": "미끄럼 주의",
+    "hyp": "미끄럼 주의",
+    "ms_best": 25.704,
+    "ms_median": 26.0
+  },
+  {
+    "id": "ko_07",
+    "lang": "ko",
+    "gt": "금연",
+    "hyp": "금연",
+    "ms_best": 19.083,
+    "ms_median": 39.631
+  },
+  {
+    "id": "ko_08",
+    "lang": "ko",
+    "gt": "안전 제일 장갑 착용",
+    "hyp": "안전 제일 장갑 착용",
+    "ms_best": 29.831,
+    "ms_median": 31.963
+  },
+  {
+    "id": "ko_09",
+    "lang": "ko",
+    "gt": "소방 통로 적재 금지",
+    "hyp": "소방 통로 적재 금지",
+    "ms_best": 38.482,
+    "ms_median": 51.777
+  },
+  {
+    "id": "vi_00",
+    "lang": "vi",
+    "gt": "DỪNG KHẨN CẤP",
+    "hyp": "DỪNG KHẨN CẤP",
+    "ms_best": 35.427,
+    "ms_median": 36.196
+  },
+  {
+    "id": "vi_01",
+    "lang": "vi",
+    "gt": "ĐỘI MŨ BẢO HỘ",
+    "hyp": "ĐỘI MŨ BẢO HỘ",
+    "ms_best": 16.483,
+    "ms_median": 16.759
+  },
+  {
+    "id": "vi_02",
+    "lang": "vi",
+    "gt": "CẤM VÀO",
+    "hyp": "CẤM VÀo",
+    "ms_best": 42.122,
+    "ms_median": 43.987
+  },
+  {
+    "id": "vi_03",
+    "lang": "vi",
+    "gt": "NGUY HIỂM ĐIỆN CAO ÁP",
+    "hyp": "NGUY HIẾM ĐIỆN CAO ÁP",
+    "ms_best": 23.249,
+    "ms_median": 34.78
+  },
+  {
+    "id": "vi_04",
+    "lang": "vi",
+    "gt": "CẨN THẬN ĐIỆN GIẬT",
+    "hyp": "CẨN THẬN ĐIỆN GIẬT",
+    "ms_best": 19.414,
+    "ms_median": 21.681
+  },
+  {
+    "id": "vi_05",
+    "lang": "vi",
+    "gt": "ĐEO KÍNH BẢO HỘ",
+    "hyp": "ĐEO KÍNH BẢO HỘ",
+    "ms_best": 21.028,
+    "ms_median": 25.302
+  },
+  {
+    "id": "vi_06",
+    "lang": "vi",
+    "gt": "CẨN THẬN TRƠN TRƯỢT",
+    "hyp": "CẦN THẬN TRƠN TRƯỢT",
+    "ms_best": 20.971,
+    "ms_median": 29.058
+  },
+  {
+    "id": "vi_07",
+    "lang": "vi",
+    "gt": "CẤM HÚT THUỐC",
+    "hyp": "CẤM HÚT THUỐC",
+    "ms_best": 31.608,
+    "ms_median": 39.569
+  },
+  {
+    "id": "vi_08",
+    "lang": "vi",
+    "gt": "AN TOÀN LÀ TRÊN HẾT ĐEO GĂNG TAY",
+    "hyp": "AN TOÀN LÀ TRÊN HẾT ĐEO GĂNG TAY",
+    "ms_best": 33.464,
+    "ms_median": 41.259
+  },
+  {
+    "id": "vi_09",
+    "lang": "vi",
+    "gt": "LỐI THOÁT HIỂM KHÔNG CHẮN LỐI",
+    "hyp": "LỐI THOÁT HIỂM KHÔNG CHẮN LỔI",
+    "ms_best": 30.318,
+    "ms_median": 48.752
+  }
+]
